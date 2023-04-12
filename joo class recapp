@@ -1,0 +1,167 @@
+#include <iostream>
+using namespace std;
+// void tambah(int x, int y, int z , string name="john"){ // void itu gabisa return dan gabisa cout
+//  cout << name << " " << x+y+z;
+// 
+//}
+//
+//int main(){
+//	
+////	int x,y,z;
+////	string name="john";
+////	cin>>name;
+////	cin>>x;
+////	cin>>y;
+////	cin>>z;
+//	tambah(1,2,3,"moza");
+//}
+
+//int kurang (int x,int y,int z=5,string name="john"){
+//	int jumlah = x-y-z;
+//	int jj = x*y*z;
+//	cout<<jj;
+//    return jumlah;
+//    
+//}
+//int main(){
+//cout<<kurang(2,4); //tanpa cout hanya mengeluarkan isi dengan cout mengeluarkan isi dengan return
+//}
+
+//void swap(int &x, int &y){
+//    int temp = x; //nilai x dimasukin ke temp
+//    x = y ; // nilai y dimasukin ke x
+//    y = temp; // nilai tempt dituker sama y
+//    cout<<x<<" "<<y;//mengeluarkan membalik nilai
+//}
+//
+//int main(){
+//	int x;
+//	int y;
+//	x=5;
+//	y=2;
+//	swap();
+//	
+//}
+
+//int sum(int num[5]){// isinya 5
+//    int jmlh = 0;// jmlh =0 biar gak default
+//    
+//    for(int i = 0; i < 5; i++)// perulangan dari 0 sampai 4 dan berjalan kedepan
+//        
+//        jmlh += num[i]; //jumlah 0 akan ditambahkan dengan nilai num yang ditambahkan terus menerus
+//
+//    return jmlh; // nembaliin nilain jmlh
+//}
+//int main()
+//{    int num[5]={};
+//     for(int i=0;i<5;i++){
+//     	cin>>num[i];
+//	 }
+//	 cout<<sum(num);
+//}
+
+//void countDown(int x){
+//    if(x == 0){
+//        cout << "end";
+//    } else {
+//        cout << x << endl;
+//        countDown(x-1);
+//    }
+//}
+//
+//int main(){
+//	countDown(10);
+//}
+
+////class biasa
+//class identitas{
+//	
+//	
+//	public :
+//		string nama;
+//		string npm;
+//		string kelas;
+//	void identity(){
+//		cout<<"nama : "<<nama<<endl;
+//		cout<<"npm  : "<<npm<<endl;
+//		cout<<"kelas: "<<kelas<<endl;
+//	}
+//};
+//
+//int main(){
+//	// cara ngeluarin isi
+////	identitas moza;
+////opsi cara isi dan ngeluarin 1
+////	moza.nama ="moza";
+////	moza.npm = 2217051014;
+////	moza.kelas = "a";
+//
+////opsi 2
+//// identitas moza {"moza","2217051014","A"};
+////moza.identity();
+//
+//// opsi 3
+////string nama;
+////string npm;
+////string kelas;
+////cin>>nama;
+////cin>>npm;
+////cin>>kelas;
+////identitas moza {nama,npm,kelas};
+////	moza.identity();
+////	return 0;
+//	
+//}
+
+// membuat class lingkaran
+//class lingkaran{
+//	private :
+//		float phi,r;
+//		
+//		
+//	public :
+//		lingkaran(){
+//			this-> phi =3.14;
+//			this ->r =5;
+//			cout<< phi*r*r;
+//			
+//	}    
+//}; 
+//		   
+//int main(){          
+//lingkaran ling;	     
+//}
+
+//class mahasiswa{
+//	private :
+//		string nama,npm;
+//		
+//	public :
+//		
+//		mahasiswa(string nama,string npm){
+//			this->nama=nama;
+//			this->npm=npm;
+//			cout<<"nama saya "<<nama<<" dengan npm "<<npm;
+//		}void laper(){ 
+//		cout<<" laper";
+//		}void setnama(string name){
+//			this->nama=name;
+//		}string getnama(){
+//			return this->nama;
+//		}
+//};
+//
+//int main(){
+//	
+//	string nama;
+//	string npm;
+//	mahasiswa m1("intan","221");
+//	m1.setnama(" yu");
+//	cout<<m1.getnama();
+//	m1.laper();
+//	cout<<endl;
+//	mahasiswa m2("hamid","22170566");
+//	m2.setnama("jupe");
+//	cout<<m2.getnama();
+//	
+//}
